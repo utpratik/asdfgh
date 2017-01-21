@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dove Home</title>
+        <link rel="icon" href="images/dovelogo.png" />
+        <link rel="stylesheet" href="style/bootstrap.css" />
+        <link rel="stylesheet" href="style/style.css" />
+        <script src="script/jquery-3.1.1.js"></script>
+        <script src="script/bootstrap.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="style/bootstrap-theme.css" />
+    </head>
+
+    <!--****************************Main Body Starting***********************-->
+
+    <body style="background-color: #f5f6f7">
+        <div>
+            <header>
+                <nav class="navbar navbar-default fnav">
+
+                    <!--********************Main Banner Starting********************-->
+
+                    <div class="container">
+
+                        <!--********************Title Banner Starting********************-->
+                        
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html">
+                                <span class="pct">D</span>ocument 
+                                <span class="pct">O</span>nline
+                                <span class="pct">VE</span>rification
+                            </a>
+                        </div>
+
+                        <!--********************Title Banner Ending********************-->
+
+                        <!--********************Main Menu Starting********************-->
+                        
+                        <div id="myNavbar">
+                            <ul class="nav nav-tabs navbar-right">
+                                <li>
+                                    <a class="dropdown-toggle" style="font-size: medium" data-toggle="tab" href="#login">
+                                        <span class="glyphicon glyphicon-log-in"></span>
+                                        <b>Login</b>
+                                    </a>
+                                </li>
+                                <li class="dropdown" style="font-size: medium">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                        <b>Register</b><span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-toggle" href="#creg"><b>Candidate</b></a></li>
+                                        <li><a class="dropdown-toggle" href="#oreg"><b>Organisation</b></a></li>
+                                        <li><a class="dropdown-toggle" href="#ireg"><b>Institute</b></a></li> 
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--********************Main Menu Ending********************-->
+
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <!--********************Main Banner Ending********************-->
+
+        <div class="tab-content">
+
+            <!--******************Login Form Starting*****************-->
+
+            <div id="login" class="tab-pane fade" style="float: right; width: 50%; padding-top: 100px; border-right: 10px">
+                <h3>Login</h3>
+                <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-xs-2" for="email">Username/Email:</label>
+                    <div class="col-xs-4">
+                        <input type="email" class="form-control" id="email" placeholder="Enter Username/Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-2" for="pwd">Password:</label>
+                    <div class="col-xs-4">          
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                    </div>
+                </div>
+                <div class="form-group">        
+                    <div class="col-sm-offset-2 col-xs-4">
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">        
+                    <div class="col-sm-offset-2 col-xs-4">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+
+            <!--***********************Login Form Ending**********************-->
+
+        </div>
+    </body>
+
+    <!--****************************Main Body Ending***********************-->
+
+</html>
